@@ -1,0 +1,62 @@
+.back {
+  display: inline-block;
+  margin-bottom: 16px;
+  color: #d9480f;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.info h1 {
+  margin-top: 0;
+}
+
+.tags {
+  display: flex;
+  gap: 8px;
+}
+
+.tags span {
+  background: #ffe8dc;
+  color: #b83a0a;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.ingredients {
+  padding-left: 20px;
+  line-height: 1.8;
+}
+
+.steps {
+  grid-column: 1 / -1;
+  line-height: 1.7;
+}
+
+.error {
+  color: #c92a2a;
+  background: #ffe3e3;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+@media (max-width: 700px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
