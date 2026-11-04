@@ -1,0 +1,23 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.subtitle {
+  margin-top: 40px;
+}
+
+.delete {
+  margin-top: 8px;
+  background: none;
+  border: 1px solid #c92a2a;
+  color: #c92a2a;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.delete:hover {
+  background: #ffe3e3;
+}
